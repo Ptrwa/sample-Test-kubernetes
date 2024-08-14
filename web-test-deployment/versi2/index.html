@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di Web Putri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-top: 50px;
+        }
+        p {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selamat Datang di Web Putri</h1>
+    <p>Terima kasih telah mengunjungi situs kami. Kami berharap Anda menikmati pengalaman Anda di sini.</p>
+    <a href="#" class="button" id="welcome-button">Klik Saya</a>
+
+    <script>
+        document.getElementById('welcome-button').addEventListener('click', function() {
+            alert('Terima kasih telah mengunjungi Web Putri!');
+        });
+    </script>
+</body>
+</html>
